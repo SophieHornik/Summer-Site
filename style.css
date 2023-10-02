@@ -1,5 +1,5 @@
-body,html{
-    background-color: #e0c7cb;
+body{
+    background-color: hwb(180 52% 20% / 0.459);
     font-family: 'Dancing Script', cursive;
   }
   .logo,navbar-brand{
@@ -28,10 +28,10 @@ body,html{
   
   }
   .nav-link:hover{
-     color:  #f6b3ff;;
+     color:  #f6b3ff;
    font-family: 'Dancing Script', cursive;
     font-size: 1.5rem;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
   }
   .nav-link:active{
      color:  #f6b3ff;;
@@ -240,4 +240,43 @@ body,html{
   }
   .centerme{
     text-align: center
+  }
+
+ /* end Nav styling*/ 
+
+  /* the following code is from css-tricks.com and has been edited*/ 
+  /* GLOBAL STYLES */
+
+  
+  /* DEMO-SPECIFIC STYLES */
+  .typewriter h1 {
+    color: #fff;
+    font-family: monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid #f6b3ff; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #f6b3ff; }
+  }
+
+  /* the previous code is css-tricks.com and has been edited*/ 
+
+  .TSITPtext{
+  display: flex;
+  justify-content: center;
   }
