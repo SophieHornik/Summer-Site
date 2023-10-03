@@ -7,19 +7,21 @@ body{
     width: 100px;
     background-color: transparent;
     border-color: transparent;
+    border-radius: 50%;
   }
   #logo{
     height: 100px;
     width: 100px;
     background-color: transparent;
     border-color: transparent; 
+    border-radius: 50%;
   }
   #logo:hover{
      height: 100px;
     width: 100px;
     background-color: transparent;
     opacity: .6;
-    border-radius: 100%;
+    border-radius: 50%;
   }
   .nav-link{
     color: #ffffff;
@@ -32,6 +34,7 @@ body{
    font-family: 'Dancing Script', cursive;
     font-size: 1.5rem;
     text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    background-position: 100%;
   }
   .nav-link:active{
      color:  #f6b3ff;;
@@ -279,4 +282,10 @@ body{
   .TSITPtext{
   display: flex;
   justify-content: center;
+  }
+
+  .car{
+    height: 20rem;
+    width: 40rem;
+    align-items: center;
   }
