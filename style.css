@@ -1,6 +1,11 @@
 body{
     background-color: hwb(180 52% 20% / 0.459);
     font-family: 'Dancing Script', cursive;
+    background-image: url(/imgs/tsipbg2.jpg); /*the previous image is from pinterest*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
   }
   .logo,navbar-brand{
     height: 100px;
@@ -30,14 +35,14 @@ body{
   
   }
   .nav-link:hover{
-     color:  #f6b3ff;
+     color:   rgb(222,98,107);
    font-family: 'Dancing Script', cursive;
     font-size: 1.5rem;
     text-shadow: 2px 2px 2px rgb(0, 0, 0);
     background-position: 100%;
   }
   .nav-link:active{
-     color:  #f6b3ff;;
+     color:   rgb(222,98,107);
    font-family: 'Dancing Script', cursive;
     font-size: 1.5rem;
     text-shadow: 2px 2px 2px black;
@@ -253,16 +258,17 @@ body{
   
   /* DEMO-SPECIFIC STYLES */
   .typewriter h1 {
-    color: #fff;
+    color: rgb(222,98,107);
     font-family: monospace;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid #f6b3ff; /* The typwriter cursor */
+    border-right: .15em solid white; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em; /* Adjust as needed */
     animation: 
       typing 3.5s steps(30, end),
       blink-caret .5s step-end infinite;
+      text-shadow: 2px 2px 2px rgb(0, 0, 0);
   }
   
   /* The typing effect */
@@ -274,7 +280,7 @@ body{
   /* The typewriter cursor effect */
   @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: #f6b3ff; }
+    50% { border-color: white; }
   }
 
   /* the previous code is css-tricks.com and has been edited*/ 
@@ -288,4 +294,18 @@ body{
     height: 20rem;
     width: 40rem;
     align-items: center;
+  }
+  .overview{
+    background-color: #FFFFFF;
+    font-size: 1rem;
+    justify-content: center;
+    height: 20rem;
+    width: 40rem;
+    margin: 2rem;
+  }
+
+  .overviewpic{
+    height: 20rem;
+    width: 400rem;
+    margin-top: 2rem;
   }
