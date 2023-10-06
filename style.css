@@ -294,18 +294,36 @@ body{
     height: 20rem;
     width: 40rem;
     align-items: center;
+    margin-bottom: 2rem;
   }
   .overview{
     background-color: #FFFFFF;
-    font-size: 1rem;
+    font-size: 1.25rem;
     justify-content: center;
     height: 20rem;
     width: 40rem;
-    margin: 2rem;
+    background-image: url(/imgs/belconjer.jpg);  /* the previous image is from amazon prime video*/ 
+    color: rgb(222,98,107);
+    background-size: cover;
+    border: #FFFFFF;
+    text-shadow: 2px 2px 2px white;
   }
 
-  .overviewpic{
-    height: 20rem;
-    width: 400rem;
-    margin-top: 2rem;
+  .img-thumbnail{
+    background-color:rgb(222,98,107);
+  }
+
+  .btn{
+    background-color:rgb(222,98,107);
+    border-color: #FFFFFF;
+  }
+  .btn:hover{
+ color:rgb(222,98,107);
+  background-color: #FFFFFF; 
+  border-color: rgb(222,98,107);
+  }
+
+  .connie{
+    height:300px
+    width:300px
   }
