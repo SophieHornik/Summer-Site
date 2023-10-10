@@ -291,24 +291,27 @@ body{
   }
 
   .car{
-    height: 20rem;
-    width: 40rem;
+    height: 40rem;
+    width: 80rem;
     align-items: center;
-    margin-bottom: 2rem;
+    margin-bottom: 10rem;
   }
   .overview{
     background-color: #FFFFFF;
     font-size: 1.25rem;
     justify-content: center;
-    height: 20rem;
-    width: 40rem;
+    height: 40rem;
+    width: 80rem;
     background-image: url(/imgs/belconjer.jpg);  /* the previous image is from amazon prime video*/ 
     color: rgb(222,98,107);
     background-size: cover;
     border: #FFFFFF;
     text-shadow: 2px 2px 2px white;
+    text-align: center;
   }
-
+.addmarg{
+  padding: 2rem;
+}
   .img-thumbnail{
     background-color:rgb(222,98,107);
   }
@@ -326,4 +329,8 @@ body{
   .connie{
     height:300px
     width:300px
+  }
+
+  #convjer{
+    margin-top: 5rem;
   }
