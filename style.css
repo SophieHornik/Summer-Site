@@ -1,7 +1,7 @@
 body{
     background-color: hwb(180 52% 20% / 0.459);
     font-family: 'Dancing Script', cursive;
-    background-image: url(/imgs/tsipbg2.jpg); /*the previous image is from pinterest*/
+    background-image: url(imgs/tsipbg2.jpg); /*the previous image is from pinterest*/
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -309,7 +309,7 @@ body{
     text-shadow: 2px 2px 2px white;
     text-align: center;
 
-    
+
     
   }
 .addmarg{
