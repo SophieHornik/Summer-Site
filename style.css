@@ -294,23 +294,32 @@ body{
     height: 40rem;
     width: 80rem;
     align-items: center;
-    margin-bottom: 10rem;
+    margin-bottom: 3rem;
   }
   .overview{
     background-color: #FFFFFF;
-    font-size: 1.25rem;
+
     justify-content: center;
-    height: 40rem;
-    width: 80rem;
+  
     background-image: url(imgs/belconjer.jpg);  /* the previous image is from amazon prime video*/ 
     color: rgb(222,98,107);
     background-size: cover;
     border: #FFFFFF;
     text-shadow: 2px 2px 2px white;
     text-align: center;
+    background-position: 50%;
+
 
 
     
+  }
+
+  #overview{
+    
+  }
+
+  #opac{
+opacity: 1!important;
   }
 .addmarg{
   padding: 2rem;
