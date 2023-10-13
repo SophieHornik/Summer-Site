@@ -302,7 +302,7 @@ body{
     justify-content: center;
     height: 40rem;
     width: 80rem;
-    background-image: url(/imgs/belconjer.jpg);  /* the previous image is from amazon prime video*/ 
+    background-image: url(imgs/belconjer.jpg);  /* the previous image is from amazon prime video*/ 
     color: rgb(222,98,107);
     background-size: cover;
     border: #FFFFFF;
